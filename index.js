@@ -50,6 +50,6 @@ function iLoveTheBeatles(n) {
     array += 'I love the Beatles!'
     n++;
   }
-  while (n<8);
+  while (n<7);
   return array;
 }
