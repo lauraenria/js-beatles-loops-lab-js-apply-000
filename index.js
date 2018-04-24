@@ -40,6 +40,9 @@ function iLoveTheBeatles(n) {
     array += 'I love the Beatles!'
     n++;
   }
-  while (n<17);
+  while (n<8);
   return array;
 }
+
+
+
