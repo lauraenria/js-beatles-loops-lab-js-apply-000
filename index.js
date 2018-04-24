@@ -34,6 +34,12 @@ function johnLennonFacts(array) {
 }
 
 //3
-function iLoveTheBeatles() {
-
+function iLoveTheBeatles(n) {
+  let array = [];
+  do {
+    array += 'I love the Beatles!'
+    n++;
+  }
+  while (n<17);
+  return array;
 }
