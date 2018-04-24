@@ -43,3 +43,13 @@ function iLoveTheBeatles(n) {
   while (n<17);
   return array;
 }
+
+function iLoveTheBeatles(n) {
+  let array = [];
+  do {
+    array += 'I love the Beatles!'
+    n++;
+  }
+  while (n<8);
+  return array;
+}
