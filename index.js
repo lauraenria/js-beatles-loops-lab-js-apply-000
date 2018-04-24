@@ -44,12 +44,15 @@ function iLoveTheBeatles(n) {
   return array;
 }
 
+// 4
 function iLoveTheBeatles(n) {
-  let array = [];
-  do {
-    array += 'I love the Beatles!'
-    n++;
+	let array = [];
+	do {
+		array.push(`I love the Beatles!`);
+		n++;
+	} while (n < 15);
+	if(n > 7){
+    return array;
   }
-  while (n<7);
-  return array;
 }
+
