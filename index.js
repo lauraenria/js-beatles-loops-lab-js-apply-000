@@ -43,6 +43,3 @@ function iLoveTheBeatles(n) {
   while (n<8);
   return array;
 }
-
-
-
